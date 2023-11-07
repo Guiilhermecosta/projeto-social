@@ -43,7 +43,7 @@ section#redes-sociais {
     text-align: right;
 }
 
-select#redes-sociais a, img{
+section#redes-sociais a, img{
     user-select: none;/*Não tem seleção*/
 }
 

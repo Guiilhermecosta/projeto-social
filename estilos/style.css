@@ -40,7 +40,6 @@ iframe#tela {
 }
 
 section#redes-sociais {
-    user-select: none;/*Não tem seleção*/
     text-align: right;
 }
 
@@ -49,6 +48,7 @@ section#redes-sociais img {
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px #00000077;
+    user-select: none;/*Não tem seleção*/
     box-sizing: border-box;/*box-sizing: border-box;=> para a borda fazer parte da caixa*/
 }
 

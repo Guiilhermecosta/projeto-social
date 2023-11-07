@@ -43,12 +43,15 @@ section#redes-sociais {
     text-align: right;
 }
 
+select#redes-sociais a, img{
+    user-select: none;/*Não tem seleção*/
+}
+
 section#redes-sociais img {
     width: 50px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px #00000077;
-    user-select: none;/*Não tem seleção*/
     box-sizing: border-box;/*box-sizing: border-box;=> para a borda fazer parte da caixa*/
 }
 
